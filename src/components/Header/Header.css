@@ -1,0 +1,31 @@
+.header{
+    height: 60px;
+    color: #15294B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: #ffffff;
+}
+.header-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 50px;
+    height: 100%;
+}
+.options{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding: 0 40px;
+}
+.logo>h1{
+    font-weight: bolder;
+}
+
+.options>.MuiSvgIcon-root, .options>span{
+    padding: 0 30px;
+}

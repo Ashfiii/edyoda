@@ -1,0 +1,124 @@
+.instructorsection{
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin: 130px 0 0 120px;
+}
+.sidebar-instructor{
+    color: #15294B;
+    flex:0.2;
+    background-color: #E0E6F2;
+}
+.sidebar-instructor:last-child{
+    background-color: red;
+}
+.sidebar-instructor>h2{
+    margin: 30px;
+}
+.contents-instructor{
+    flex: 0.8;
+    background-color: #E5E5E5;
+}
+.contents-instructor h1{
+    font-family: 'Roboto', sans-serif;
+    color: #000000bf;
+}
+.contents-instructor p{
+    font-family: 'Roboto', sans-serif;
+    color: #000000bf;
+}
+.inner-block{
+    margin: 30px 50px;
+    background-color: #ffffff;
+    border: 1px solid #00a8ff66;
+    border-radius: 4px;
+}
+.title-row{
+    margin: 40px 0;
+    background-color: #c4c4c433;;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+}
+.title-row>img{
+    height: 200px;
+}
+.title-row>p{
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+}
+.imgContainer{
+    margin-left: 30px;
+}
+.imgContainer>img{
+    width: 110px;
+    height: 110px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.content-row{
+    padding: 10px 30px;
+    border-bottom: 1px solid #CCCCCC;
+    font-style: normal;
+    font-weight: 500;
+}
+.row-title>h3{
+    margin: 0;
+}
+.row-info{
+    display: flex;
+    align-items: center;
+}
+.row-block{
+    margin-right: 30px;
+}
+.row-block>h1{
+    margin: 12px 0 8px 0;
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+}
+.row-block>p{
+    margin: 0;
+    font-size: 14px;
+}
+.row1{
+    margin: 10px 40px;
+}
+.row2{
+    margin: 60px 40px;
+}
+.row2-title>h3{
+    margin: 40px 0;
+}
+.row-desc{
+    display: flex;
+    align-items: center;
+}
+.row-tech{
+    margin-right: 30px;
+}
+.row-tech>p{
+    text-align: center;
+    letter-spacing: 2px;
+}
+.about{
+    padding: 30px;
+    margin: 30px 0;
+}
+.about>.row2{
+    margin: 40px;
+}
+.about p{
+    line-height: 35px;
+    letter-spacing: 2px;
+    font-size: 16px;
+}

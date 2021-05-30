@@ -1,0 +1,201 @@
+.homesection{
+    background-color: #E5E5E5;
+    width: 100%;
+    position: relative;
+    margin: 130px 0 0 120px;
+}
+.top-sectionwrap{
+   margin: 40px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    height: 335px;
+    margin: 40px 0;
+}
+.card-left{
+    display: flex;
+    flex: 0.7;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 1px solid #00a8ff66;
+    border-radius: 6px;
+    height: 100%;
+    margin-right: 20px;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-info{
+    flex: 0.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-topcontainer{
+    display: flex;
+    align-items: center;
+}
+.card-desc{
+    margin-left: 30px;
+}
+.card-title>h3{
+    margin:0;
+    letter-spacing: 2px;
+}
+.titleImg>img{
+    width: 80px;
+    height: 80px;
+}
+.card-bottomcontainer{
+    display:flex;
+    align-items: center;
+}
+.card-options{
+    display: flex;
+    align-items: center; 
+    padding-top: 6px;
+}
+.MuiAvatar-root{
+    width: 26px !important;
+    height:26px !important;
+    font-size: 12px !important;
+}
+.cardoptions-title{
+    text-align: right;
+}
+.cardoptions-title>p{
+    margin: 18px 0;
+}
+.card-options>span{
+    padding-left: 8px;
+    color: #0096FF;
+}
+.card-progress{
+    margin-left: 26px
+}
+.card-progressbar{
+    margin: 12px 0;
+}
+.card-progressbar>p{
+    font-size: 10px;
+    color: #3EBFF5;
+    margin: 6px 0;
+    font-family: "Roboto", "sans-serif";
+    font-weight: bold;
+}
+.card-plan{
+    border-left: 1px solid #00a8ff66;
+    padding: 24px;
+    flex: 0.4;
+}
+
+.card-details>p{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+.card-plan>.title{
+    margin: 16px 0;
+    font-size: 20px;
+    color: #0096FF;
+    font-weight: 500;
+}
+.card-plan>.caption{
+    font-size: 18px;
+    color: gray;
+}
+.card-plan>.plan-details{
+    color: #0096FF;
+    padding-left: 20px;
+}
+.card-button{
+    margin-top: 70px;
+}
+.card-button>button{
+    background-image: linear-gradient(to right, #0096FF, #0048FF);
+    color: #ffffff;
+    padding: 6px 30px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+.card-button>p{
+    margin: 10px;
+    color: gray;
+    font-size: 12px;
+    padding-left: 20px;
+}
+.card-right{
+    flex: 0.3;
+    background-color: #ffffff;
+    border: 1px solid #00a8ff66;
+    height: 100%;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.card-right>h3{
+    font-size: 16px;
+    font-weight: bolder;
+    color: #0096FF;
+    margin-top: 30px
+}
+.tiny-card{
+    border: 1px solid #00a8ff66;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    width: 70%;
+}
+.tinycard-desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-row>.cards:first-child{
+    margin-left: 0;
+}
+.bottom-section-wrap{
+    margin: 40px;
+    padding-top: 20px;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.backward-arrow, .forward-arrow{
+        background: transparent;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        border: 4px solid #0096FF;
+        position: relative;
+        margin: 20px;
+}
+.backward-arrow .MuiSvgIcon-root{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #0096FF;
+}
+.forward-arrow .MuiSvgIcon-root{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #0096FF;
+    font-weight: 500;
+}

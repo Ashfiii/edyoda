@@ -1,0 +1,17 @@
+.moduletitlerow{
+    display: flex;
+    align-items: center;
+}
+.moduletitlerow>img{
+    width: 30px;
+    height: 30px;
+    margin: 0 30px;
+}
+.moduletitlerow>h3{
+    font-family:  Roboto, sans-serif;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.moduletitlerow:nth-child(4){
+    background-color: #15294b1a;
+}

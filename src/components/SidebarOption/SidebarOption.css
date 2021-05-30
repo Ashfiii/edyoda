@@ -1,0 +1,17 @@
+.sidebaroption{
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    color: #ffffff;
+}
+.sidebaroption>.MuiSvgIcon-root{
+    font-size: 30px;
+}
+.option-selected{
+    color: #15294B;
+    background-color: #E0E6F2;
+}
+.sidebaroption>p{
+    font-size: 12px;
+    margin: 6px 0; 
+}
