@@ -17,13 +17,13 @@ function App() {
         <div className="mainsection">
           <Sidebar />
           <Switch>
-            <Route path="/edyoda/instructors">
+            <Route path="/instructors">
               <InstructorSection />
             </Route>
-            <Route path="/edyoda/modules">
+            <Route path="/modules">
               <ModuleSection />
             </Route>
-            <Route exact path="/edyoda">
+            <Route path="/">
               <HomeSection />
             </Route>
             
