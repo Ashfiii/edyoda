@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/edyoda/static/css/main.504ae0fb.chunk.css",
-    "main.js": "/edyoda/static/js/main.d90c753a.chunk.js",
-    "main.js.map": "/edyoda/static/js/main.d90c753a.chunk.js.map",
+    "main.js": "/edyoda/static/js/main.b8c91896.chunk.js",
+    "main.js.map": "/edyoda/static/js/main.b8c91896.chunk.js.map",
     "runtime-main.js": "/edyoda/static/js/runtime-main.1e49a519.js",
     "runtime-main.js.map": "/edyoda/static/js/runtime-main.1e49a519.js.map",
     "static/js/2.ba4d7888.chunk.js": "/edyoda/static/js/2.ba4d7888.chunk.js",
@@ -35,6 +35,6 @@
     "static/js/runtime-main.1e49a519.js",
     "static/js/2.ba4d7888.chunk.js",
     "static/css/main.504ae0fb.chunk.css",
-    "static/js/main.d90c753a.chunk.js"
+    "static/js/main.b8c91896.chunk.js"
   ]
 }
