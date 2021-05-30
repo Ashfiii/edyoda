@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/edyoda/static/css/main.504ae0fb.chunk.css",
+    "main.js": "/edyoda/static/js/main.b8c91896.chunk.js",
+    "main.js.map": "/edyoda/static/js/main.b8c91896.chunk.js.map",
+    "runtime-main.js": "/edyoda/static/js/runtime-main.1e49a519.js",
+    "runtime-main.js.map": "/edyoda/static/js/runtime-main.1e49a519.js.map",
+    "static/js/2.ba4d7888.chunk.js": "/edyoda/static/js/2.ba4d7888.chunk.js",
+    "static/js/2.ba4d7888.chunk.js.map": "/edyoda/static/js/2.ba4d7888.chunk.js.map",
+    "index.html": "/edyoda/index.html",
+    "static/css/main.504ae0fb.chunk.css.map": "/edyoda/static/css/main.504ae0fb.chunk.css.map",
+    "static/js/2.ba4d7888.chunk.js.LICENSE.txt": "/edyoda/static/js/2.ba4d7888.chunk.js.LICENSE.txt",
+    "static/media/Notification.4dffb5f2.svg": "/edyoda/static/media/Notification.4dffb5f2.svg",
+    "static/media/default-avatar.fcbe893d.svg": "/edyoda/static/media/default-avatar.fcbe893d.svg",
+    "static/media/dropdown-icon-white.62221e2d.svg": "/edyoda/static/media/dropdown-icon-white.62221e2d.svg",
+    "static/media/github.2533f926.svg": "/edyoda/static/media/github.2533f926.svg",
+    "static/media/home-dark.a8de8b04.svg": "/edyoda/static/media/home-dark.a8de8b04.svg",
+    "static/media/home-white.e8fd11d5.svg": "/edyoda/static/media/home-white.e8fd11d5.svg",
+    "static/media/instructors-dark.534c5ede.svg": "/edyoda/static/media/instructors-dark.534c5ede.svg",
+    "static/media/instructors-white.6d93bd31.svg": "/edyoda/static/media/instructors-white.6d93bd31.svg",
+    "static/media/intro-video-placeholder.30062168.jpg": "/edyoda/static/media/intro-video-placeholder.30062168.jpg",
+    "static/media/linkedin.a1ed4f2b.svg": "/edyoda/static/media/linkedin.a1ed4f2b.svg",
+    "static/media/modules-dark.4927f8db.svg": "/edyoda/static/media/modules-dark.4927f8db.svg",
+    "static/media/tech-aws.c55bec55.svg": "/edyoda/static/media/tech-aws.c55bec55.svg",
+    "static/media/tech-css.4062cea9.svg": "/edyoda/static/media/tech-css.4062cea9.svg",
+    "static/media/tech-data-analysis.cbbaef6b.svg": "/edyoda/static/media/tech-data-analysis.cbbaef6b.svg",
+    "static/media/tech-django.2aec6f70.svg": "/edyoda/static/media/tech-django.2aec6f70.svg",
+    "static/media/tech-dsa.be7c6b85.svg": "/edyoda/static/media/tech-dsa.be7c6b85.svg",
+    "static/media/tech-html.10994635.svg": "/edyoda/static/media/tech-html.10994635.svg",
+    "static/media/tech-javascript.3e60d13a.svg": "/edyoda/static/media/tech-javascript.3e60d13a.svg",
+    "static/media/tech-reactjs.a3d3a1b0.svg": "/edyoda/static/media/tech-reactjs.a3d3a1b0.svg",
+    "static/media/website.2ba2e46c.svg": "/edyoda/static/media/website.2ba2e46c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e49a519.js",
+    "static/js/2.ba4d7888.chunk.js",
+    "static/css/main.504ae0fb.chunk.css",
+    "static/js/main.b8c91896.chunk.js"
+  ]
+}
