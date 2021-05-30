@@ -14,20 +14,20 @@ const Sidebar = () => {
     return (
         <div className="sidebar">
             <div className="sidebar-options">
-                <Link to="/">
+                <Link to="/edyoda">
                     <SidebarOption onClick={(e) => setActiveLink("home")} 
                     active={activeLink === "home"}
                     imgDark={homeDark} 
                     imgWhite={homeWhite} 
                     title="HOME"/>
                 </Link>
-                <Link to="/modules">
+                <Link to="/edyoda/modules">
                     <SidebarOption onClick={(e) => setActiveLink("modules")} 
                     active={activeLink === "modules"}
                     imgDark={modulesDark} 
                     title="MODULES"/>
                 </Link>
-                <Link to="/instructors">
+                <Link to="/edyoda/instructors">
                     <SidebarOption onClick={(e) => setActiveLink("instructor")} 
                     active={activeLink === "instructor"} 
                     imgWhite={instructorWhite} 
