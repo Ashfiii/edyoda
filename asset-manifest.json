@@ -1,26 +1,21 @@
 {
   "files": {
-    "main.css": "/edyoda/static/css/main.504ae0fb.chunk.css",
-    "main.js": "/edyoda/static/js/main.b8c91896.chunk.js",
-    "main.js.map": "/edyoda/static/js/main.b8c91896.chunk.js.map",
+    "main.css": "/edyoda/static/css/main.804a47b5.chunk.css",
+    "main.js": "/edyoda/static/js/main.5052dac4.chunk.js",
+    "main.js.map": "/edyoda/static/js/main.5052dac4.chunk.js.map",
     "runtime-main.js": "/edyoda/static/js/runtime-main.1e49a519.js",
     "runtime-main.js.map": "/edyoda/static/js/runtime-main.1e49a519.js.map",
-    "static/js/2.ba4d7888.chunk.js": "/edyoda/static/js/2.ba4d7888.chunk.js",
-    "static/js/2.ba4d7888.chunk.js.map": "/edyoda/static/js/2.ba4d7888.chunk.js.map",
+    "static/js/2.8d135668.chunk.js": "/edyoda/static/js/2.8d135668.chunk.js",
+    "static/js/2.8d135668.chunk.js.map": "/edyoda/static/js/2.8d135668.chunk.js.map",
     "index.html": "/edyoda/index.html",
-    "static/css/main.504ae0fb.chunk.css.map": "/edyoda/static/css/main.504ae0fb.chunk.css.map",
-    "static/js/2.ba4d7888.chunk.js.LICENSE.txt": "/edyoda/static/js/2.ba4d7888.chunk.js.LICENSE.txt",
+    "static/css/main.804a47b5.chunk.css.map": "/edyoda/static/css/main.804a47b5.chunk.css.map",
+    "static/js/2.8d135668.chunk.js.LICENSE.txt": "/edyoda/static/js/2.8d135668.chunk.js.LICENSE.txt",
     "static/media/Notification.4dffb5f2.svg": "/edyoda/static/media/Notification.4dffb5f2.svg",
     "static/media/default-avatar.fcbe893d.svg": "/edyoda/static/media/default-avatar.fcbe893d.svg",
-    "static/media/dropdown-icon-white.62221e2d.svg": "/edyoda/static/media/dropdown-icon-white.62221e2d.svg",
     "static/media/github.2533f926.svg": "/edyoda/static/media/github.2533f926.svg",
-    "static/media/home-dark.a8de8b04.svg": "/edyoda/static/media/home-dark.a8de8b04.svg",
-    "static/media/home-white.e8fd11d5.svg": "/edyoda/static/media/home-white.e8fd11d5.svg",
-    "static/media/instructors-dark.534c5ede.svg": "/edyoda/static/media/instructors-dark.534c5ede.svg",
-    "static/media/instructors-white.6d93bd31.svg": "/edyoda/static/media/instructors-white.6d93bd31.svg",
     "static/media/intro-video-placeholder.30062168.jpg": "/edyoda/static/media/intro-video-placeholder.30062168.jpg",
     "static/media/linkedin.a1ed4f2b.svg": "/edyoda/static/media/linkedin.a1ed4f2b.svg",
-    "static/media/modules-dark.4927f8db.svg": "/edyoda/static/media/modules-dark.4927f8db.svg",
+    "static/media/logo.55bcc00f.png": "/edyoda/static/media/logo.55bcc00f.png",
     "static/media/tech-aws.c55bec55.svg": "/edyoda/static/media/tech-aws.c55bec55.svg",
     "static/media/tech-css.4062cea9.svg": "/edyoda/static/media/tech-css.4062cea9.svg",
     "static/media/tech-data-analysis.cbbaef6b.svg": "/edyoda/static/media/tech-data-analysis.cbbaef6b.svg",
@@ -33,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1e49a519.js",
-    "static/js/2.ba4d7888.chunk.js",
-    "static/css/main.504ae0fb.chunk.css",
-    "static/js/main.b8c91896.chunk.js"
+    "static/js/2.8d135668.chunk.js",
+    "static/css/main.804a47b5.chunk.css",
+    "static/js/main.5052dac4.chunk.js"
   ]
 }
