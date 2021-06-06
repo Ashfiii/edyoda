@@ -1,60 +1,117 @@
-.navbar{
+.navbar-container{
+    top: 60px;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    font-style: normal;
+}
+.dropdown{
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 70px;
     background-color: #15294B;
     color: #ffffff;
-    position: fixed;
-    top: 60px;
-    left: 0;
-    z-index: 999;
-    width: 100%;
+    padding: 0 16px 0 100px;
 }
-.navbar p{
-    font-family: 'Roboto', 'sans-serif';
+.dropdown p{
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
+    font-size: 20px;
     font-weight: 400;
+    line-height: 23px;
 }
-.navbar-left{
+.navbar-block{
+    cursor: pointer;
+}
+.navbar-left, .navbar-block{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 50px;
 }
-.navbar-left>p{
-    padding: 0 10px 0 40px;
-    font-size: 24px;
-}
-.navbar-left>.MuiSvgIcon-root{
-    padding-right: 20px;
-    font-size: 30px;
+.navbar-block>p{
+    padding: 0 20px 0 0;
+   
 }
 .navbar-left>h2{
-    padding: 0 40px;
-}
-.navbar-right{
-    margin-right: 30px;
+    padding: 0 20px 0 90px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
 }
 .progressbar>p{
     text-align: right;
-    font-size: 20px;
-    margin: 18px;
 }
 .navbardesc{
-    display: flex;
+    display: flex !important;
     align-items: center;
 }
 .navbardesc>p{
     letter-spacing: 2px;
-    margin-right: 30px;
+    margin-right: 40px;
     font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    line-height: 14px;
+    color: #ffffffe6;
 }
 .navbardesc>button{
-    padding: 12px 30px;
+    padding: 13px 40px;
     border-radius: 50px;
     border: none;
     outline: none;
     background-color: #a5aab9;
     color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.meta-strip{
+    background-color: #15294B;
+    height: 90px;
+    padding: 0 30px 0 100px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    display: none;
+}
+.wrapper{
+    color: white;
+}
+.wrapper>label{
+    font-size: 14px;
+    line-height: 16px;
+}
+.metastrip-row{
+    margin-top: 16px;
+}
+.metastrip-row label{
+    margin-right: 50px;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 1px;
+}
+.metastrip-row label:first-child{
+    color: #15294B;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.upArrow{
+    display: none;
+    width: 20px;
+    height: 20px;
+}
+.upArrow>svg.upCaret{
+    transform: rotate(180deg);
 }

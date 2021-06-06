@@ -1,6 +1,5 @@
 import React from 'react';
 import './InstructorSection.css';
-import InstructorRow from './../InstructorRow/InstructorRow';
 import avatarImg from '../../images/default-avatar.svg';
 import linkedinImg from '../../images/linkedin.svg';
 import websiteImg from '../../images/website.svg';
@@ -12,12 +11,34 @@ import jsImg from '../../images/tech-javascript.svg';
 import reactImg from '../../images/tech-reactjs.svg';
 
 const InstructorSection = () => {
+
+    const instructorRow = (name, course1, course2, course3) => (
+        <div className="instructorrow">
+            <div className="instructor-block">
+                <img src={avatarImg} alt="ModuleTitleImage"/>
+                <h3>{name}</h3>
+            </div>
+            <div className="instructor-options">
+                <p>{course1}</p>
+                <p>{course2}</p>
+                <p>{course3}</p>
+            </div>
+        </div>
+    )
+
+    const techRow = (img, title) => (
+        <div className="row-tech">
+            <img src={img} alt="CourseImage" />
+            <p>{title}</p>
+        </div>
+    )
+    
     return (
         <div className="instructorsection">
             <div className="sidebar-instructor">
                 <h2>Instructors</h2>
-                <InstructorRow name="John Doe" course1="HTML5" course2="CSS3" course3="JAVASCRIPT"/>
-                <InstructorRow name="Daphne Doe" course1="PYTHON" course2="DATA STRUCTURES &amp; ALGORITHMS" course3=""/>
+                {instructorRow("John Doe", "HTML5", "CSS3", "JAVASCRIPT")}
+                {instructorRow("Daphne Doe", "PYTHON", "DATA STRUCTURES & ALGORITHMS", "")}
             </div>
             <div className="contents-instructor">
                 <div className="inner-block">
@@ -54,22 +75,10 @@ const InstructorSection = () => {
                                 <h3>TECHNICAL EXPERTISE</h3>
                             </div>
                             <div className="row-desc">
-                                <div className="row-tech">
-                                    <img src={htmlImg} alt="HTML5" />
-                                    <p>HTML5</p>
-                                </div>
-                                <div className="row-tech">
-                                    <img src={cssImg} alt="CSS3" />
-                                    <p>CSS3</p>
-                                </div>
-                                <div className="row-tech">
-                                    <img src={jsImg} alt="JavaScript" />
-                                    <p>JavaScript</p>
-                                </div>
-                                <div className="row-tech">
-                                    <img src={reactImg} alt="ReactJS" />
-                                    <p>ReactJS</p>
-                                </div>
+                                {techRow(htmlImg, "HTML5")}
+                                {techRow(cssImg, "CSS3")}
+                                {techRow(jsImg, "JavaScript")}
+                                {techRow(reactImg, "ReactJS")}
                             </div>
                         </div>
                     </div>

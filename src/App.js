@@ -23,7 +23,7 @@ function App() {
             <Route path="/modules">
               <ModuleSection />
             </Route>
-            <Route path="/">
+            <Route path="/home">
               <HomeSection />
             </Route>
             

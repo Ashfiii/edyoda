@@ -5,18 +5,25 @@ import cssImg from '../../images/tech-css.svg';
 import jsImg from '../../images/tech-javascript.svg';
 import reactImg from '../../images/tech-reactjs.svg';
 import dsaImg from '../../images/tech-dsa.svg';
-import ModuleTitleRow from './../ModuleTitleRow/ModuleTitleRow';
 
 const ModuleSection = () => {
+
+    const moduleTitleRow = (img, title) =>  (
+        <div className="moduletitlerow">
+            <img src={img} alt="ModuleTitleImage"/>
+            <h3>{title}</h3>
+        </div>
+    )
+
     return (
         <div className="modulesection">
             <div className="sidebar-module">
                 <h2>Modules</h2>
-                <ModuleTitleRow img={htmlImg} title="HTML5"/>
-                <ModuleTitleRow img={cssImg} title="CSS3"/>
-                <ModuleTitleRow img={jsImg} title="JavaScript"/>
-                <ModuleTitleRow img={reactImg} title="ReactJS"/>
-                <ModuleTitleRow img={dsaImg} title="Data Structures &amp; Algorithms"/>
+                {moduleTitleRow(htmlImg, "HTML5")}
+                {moduleTitleRow(cssImg, "CSS3")}
+                {moduleTitleRow(jsImg, "JavaScript")}
+                {moduleTitleRow(reactImg, "ReactJS")}
+                {moduleTitleRow(dsaImg, "Data Structures & Algorithms")}
             </div>
             <div className="contents-module">
                 <div className="top-container">

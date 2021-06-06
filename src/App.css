@@ -1,11 +1,10 @@
-/* .app{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-} */
 .mainsection{
     display: flex;
     flex-direction: row;
     overflow: hidden;
     position: relative;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
 }
