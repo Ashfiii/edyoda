@@ -7,7 +7,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ModuleSection from './components/ModuleSection/ModuleSection';
 import InstructorSection from './components/InstructorSection/InstructorSection';
 
-
 function App() {
   return (
     <div className="app">
@@ -26,12 +25,9 @@ function App() {
             <Route path="/home">
               <HomeSection />
             </Route>
-            
           </Switch>
         </div>
-      </Router>
-     
-      
+      </Router> 
       
     </div>
   );
